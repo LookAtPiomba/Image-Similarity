@@ -28,3 +28,9 @@ Where:
 What the Neural Network actually does is given each image query, calculate the similarity with all the images in the gallery. \
 Those images are then ordered by similarity and the quality of the NN is evaluated calculating the percentage of time in which the most similar image of the same class of the query image is in Top 1, Top 5 or Top 10.
 (In other words a Top 10 accuracy of 90% means 90 out of 100 at least one image of the same class is in the 10 most similar images)
+
+#How to use
+- Create your own dataset
+- Train the NN you prefer by changes Hyperparameters 
+- Save the model
+- Load the model in the [Evalutation Notebook](/code/Evaluation.ipynb)
