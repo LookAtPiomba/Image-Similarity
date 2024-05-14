@@ -31,6 +31,6 @@ Those images are then ordered by similarity and the quality of the NN is evaluat
 
 #How to use
 - Create your own dataset
-- Train the NN you prefer by changes Hyperparameters 
+- Train the NN you prefer by changing Hyperparameters 
 - Save the model
 - Load the model in the [Evalutation Notebook](/code/Evaluation.ipynb)
